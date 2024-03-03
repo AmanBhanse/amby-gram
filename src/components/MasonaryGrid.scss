@@ -1,0 +1,13 @@
+.masonaryContainer{
+  display : grid;
+  gap : 10px;
+  width: 100%;
+}
+
+
+@media only screen and (min-width : 420px) {
+  .masonaryContainer{
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+  }
+}
